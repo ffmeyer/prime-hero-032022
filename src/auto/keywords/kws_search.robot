@@ -22,3 +22,20 @@ Conferir se o produto Blouse foi listado no site
 
 Conferir mensagem "${MENSAGEM}"
     Wait Until Page Contains    ${MENSAGEM}
+
+
+Acessar o menu "summer dresses"
+    
+    Wait Until Element Is Visible    xpath=${PRODUTO_PAGE.mouse_over_dress}
+    Mouse Over                       xpath=${PRODUTO_PAGE.mouse_over_dress} 
+    Set Focus To Element             xpath=${PRODUTO_PAGE.mouse_over_dress} 
+
+    Wait Until Element Is Visible    xpath=${PRODUTO_PAGE.mouse_over_summer_dress}        10
+    Mouse Over                       xpath=${PRODUTO_PAGE.mouse_over_summer_dress}
+    Set Focus To Element             xpath=${PRODUTO_PAGE.mouse_over_summer_dress}
+    Click Element                    xpath=${PRODUTO_PAGE.mouse_over_summer_dress}
+    
+Validar quantidade de tres vestidos exibidos
+    Wait Until Element Is Visible    xpath=${PRODUTO_PAGE.category_name}        
+    Should Contain                   xpath=${PRODUTO_PAGE.product_count}        ${PRODUTO_PAGE.expected_count}
+

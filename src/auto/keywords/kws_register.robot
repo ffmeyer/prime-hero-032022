@@ -60,7 +60,3 @@ Conferir se o cadastro foi efetuado com sucesso
     Wait Until Element Is Visible       css=${REGISTER.logged_user}     10s        
     ${EXPECTED_FULL_NAME}               Get Text                        css=${REGISTER.logged_user}
     Should Contain                      ${SUITE_FULL_NAME}              ${EXPECTED_FULL_NAME}
-
-    
-
-    

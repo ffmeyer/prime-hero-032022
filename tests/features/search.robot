@@ -20,3 +20,10 @@ Caso de Teste 02: Pesquisar produto não existente
     Digitar o nome do produto "itemNãoExistente" no campo de pesquisa
     Clicar no botão pesquisar
     Conferir mensagem "No results were found for your search"
+
+
+Caso de Teste 03: Pesquisa de "Summer Dresses"
+     [Tags]        MOUSEOVER
+    Acessar a página home do site Automation Practice
+    Acessar o menu "summer dresses"
+    Validar quantidade de tres vestidos exibidos
