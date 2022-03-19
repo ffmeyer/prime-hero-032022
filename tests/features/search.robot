@@ -25,5 +25,5 @@ Caso de Teste 02: Pesquisar produto não existente
 Caso de Teste 03: Pesquisa de "Summer Dresses"
      [Tags]        MOUSEOVER
     Acessar a página home do site Automation Practice
-    Acessar o menu "summer dresses"
+    Acessar o menu "Summer Dresses"
     Validar quantidade de tres vestidos exibidos
